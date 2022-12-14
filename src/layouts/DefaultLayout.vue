@@ -1,23 +1,13 @@
 <template>
-	<div>
-
-	</div>
+    <div class="layout">
+        <router-view />
+    </div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-	name: 'Home',
-
-	setup() {
-
-		return {
-
-		}
-	},
+    name: 'DefaultLayout',
 })
 </script>
-
-
-
